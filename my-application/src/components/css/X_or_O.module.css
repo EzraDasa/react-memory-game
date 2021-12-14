@@ -1,0 +1,28 @@
+article{
+    display: flex;
+    position: relative;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 500%;
+}
+.DiagonalFromRightToLeft{
+    background-image: repeating-linear-gradient(45deg, transparent 0%, transparent 48%, #fff 50%, transparent 52%, transparent 100%);
+}
+.DiagonalFromLeftToRight{
+    background-image: repeating-linear-gradient(135deg, transparent 0%, transparent 48%, #fff 50%, transparent 52%, transparent 100%);
+}
+.lineThroughFromRight{
+    background-image: repeating-linear-gradient(0deg, transparent 0%, transparent 48%, #fff 50%, transparent 52%, transparent 100%);
+}
+.lineThroughFromTop{
+    background-image: repeating-linear-gradient(0deg, transparent 0%, transparent 48%, #fff 50%, transparent 52%, transparent 100%);
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 300%;
+    }
+}

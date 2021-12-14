@@ -1,0 +1,7 @@
+section{
+    background-color: rgb(247, 52, 52);
+    width: 40vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
